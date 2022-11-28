@@ -1,0 +1,67 @@
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+/*background: rgb(255, 0, 0);*/
+/*background:rgba(255, 0, 0, 0.4);*/
+background: linear-gradient(rgb(139, 0, 0),rgb(70, 130, 180));
+background: radial-gradient(rgb(139, 0, 0)),rgb(70, 130, 180)
+;
+}
+
+p{
+    font-size:20px;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+
+.nav_header{
+    display: inline;
+}
+/**
+.email{
+    display:none;
+}**/
+
+.p2{
+    /width: 70%;/
+}
+
+header {
+    background-color: rgb(51, 36, 91);
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+main
+{
+    background-color: rgb(146, 85, 85);
+    display: grid; 
+    /grid-template-columns: 80% 20%;/ 
+    grid-template-columns: 8fr 2fr; 
+    grid-gap:300px;
+}
+
+nav {
+    background: rgba(152, 41, 41, 0.911);
+   / height: ;70%/
+}
+  
+article {
+    background-color: rgb(43, 108, 161);
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr; 
+    grid-gap:15px;
+   /** border: 15px solid green;
+    padding: 300px;
+    margin: 70px*/
+}
+  
+footer {
+    background-color: rgb(65, 55, 55);
+}
+
+h1
+{
+    margin:auto;
+}
